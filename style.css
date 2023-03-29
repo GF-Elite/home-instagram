@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  height: 30px;
+}
+
+.search input[type="text"] {
+  border: none;
+  background-color: #fafafa;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+.post {
+  margin: 10px;
+  border: 1px solid #efefef;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  width: 300px;
+  max-height: 400px;
+}
+
+.post img {
+  width: 100%;
+  height: auto;
+}
+
+.post-info {
+  padding: 10px;
+}
+
+.post-info h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.post-info p {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafafa;
+  padding: 10px;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+}
+
+.links a {
+  color: #003569;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.copy {
+  color: #8e8e8e;
+}
